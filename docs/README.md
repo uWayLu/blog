@@ -12,6 +12,8 @@
 │   ├── Me
 │   └── Resume
 │
+├── Uncategorized
+│
 ├m─ Wish List
 │   ├── Food (Index Page to info and exp/review/gain)
 │   ├── Buy 3C

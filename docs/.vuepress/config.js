@@ -28,19 +28,11 @@ module.exports = {
                 ]
             },
             {
-                text: 'Wish List',
-                ariaLabel: 'Wishlist Menu',
-                items: [
-                    {
-                        text: 'Food', link: 'https://www.google.com/search?q=台灣%20美食',
-                    }
-                ]
+                text: '未分類',
+                ariaLabel: '未分類文章',
+                link: '/uncategorized/天氣之子觀後感'
             }
         ],
-        sidebar: [
-            '/',
-            '/page-a',
-            ['/page-b', 'Explicit link text']
-        ]
+        sidebar: 'auto'
     }
 }
