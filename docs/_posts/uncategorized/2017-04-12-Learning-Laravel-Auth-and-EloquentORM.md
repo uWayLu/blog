@@ -1,5 +1,6 @@
 ---
 title: Laravel 學習筆記（二）：Auth and Eloquent ORM
+date: 2017-04-12
 tags: ["web開發", "開發", "PHP", "Laravel", "posted"]
 notebook: 15.Laravel
 layout: post

@@ -1,5 +1,6 @@
 ---
 title: Laravel 學習筆記（一）：安裝與設置
+date: 2017-04-11
 tags: ["web開發", "開發", "PHP", "Laravel", "posted"]
 notebook: 15.Laravel
 layout: post

@@ -1,5 +1,6 @@
 ---
 title: Laravel 學習筆記（五）：Composer 與 Evernote API
+date: 2017-04-17
 tags: ["PHP", "web開發", "開發", "Laravel", "posted"]
 notebook: 15.Laravel
 layout: post

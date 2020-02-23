@@ -1,5 +1,6 @@
 ---
 title: Static Pages on Github
+date: 2017-08-03
 notebook: 13.個人網站
 tags: ["jekyll", "posted"]
 layout: post    

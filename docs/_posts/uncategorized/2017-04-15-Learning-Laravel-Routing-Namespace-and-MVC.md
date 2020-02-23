@@ -1,5 +1,6 @@
 ---
 title: Laravel 學習筆記（三）：Routing, Namespace, and MVC
+date: 2017-04-15
 tags: ["web開發", "開發", "PHP", "Laravel", "posted"]
 notebook: 15.Laravel
 layout: post

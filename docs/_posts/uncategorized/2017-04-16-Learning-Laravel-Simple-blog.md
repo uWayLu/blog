@@ -1,5 +1,6 @@
 ---
 title: Laravel 學習筆記（四）：簡單的 blog 系統
+date: 2017-04-16
 tags: ["web開發", "開發", "PHP", "Laravel", "posted"]
 notebook: 15.Laravel
 layout: post
