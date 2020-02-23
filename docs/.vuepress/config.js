@@ -4,6 +4,7 @@ module.exports = {
   host: "localhost",
   port: "8042",
   extraWatchFiles: [],
+  theme: "@vuepress/theme-blog",
   themeConfig: {
     // nav: [
     //   {
@@ -34,7 +35,7 @@ module.exports = {
     //   {
     //     text: "未分類",
     //     ariaLabel: "未分類文章",
-    //     link: "/blog/2019/10/07/天氣之子觀後感/"
+    //     link: "/_posts/2019/10/07/天氣之子觀後感/"
     //   }
     // ],
     sidebar: "auto"
@@ -48,31 +49,31 @@ module.exports = {
         },
         directories: [
           {
-            id: "archived",
-            dirname: "blog/uncategorized",
-            path: "/blog/archived/",
-            itemPermalink: `/archived/:year/:month/:day/:slug`,
-            // pagination: {
-            //   perPagePosts: 5
-            // }
+            id: "anime",
+            dirname: "_posts/anime",
+            path: "/_posts/anime/",
+            itemPermalink: "/anime/:year/:month/:day/:slug",
+            pagination: {
+              perPagePosts: 5
+            }
           },
           {
-            id: "anime",
-            dirname: "blog/anime",
-            path: "/blog/anime/",
-            itemPermalink: "/anime/:year/:month/:day/:slug",
-            // pagination: {
-            //   perPagePosts: 2
-            // }
+            id: "archived",
+            dirname: "_posts/uncategorized",
+            path: "/_posts/archived/",
+            itemPermalink: "/archived/:year/:month/:day/:slug",
+            pagination: {
+              perPagePosts: 5
+            }
           },
           {
             id: "post",
-            dirname: "blog",
-            path: "/blog/",
-            itemPermalink: "/blog/:year/:month/:day/:slug",
-            // pagination: {
-            //   perPagePosts: 2
-            // }
+            dirname: "_posts",
+            path: "/",
+            itemPermalink: "/:year/:month/:day/:slug",
+            pagination: {
+              perPagePosts: 1
+            }
           }
         ]
       }
