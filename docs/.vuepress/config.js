@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Hello, welcome to Webb Site",
+  title: "Webb Site",
   description: "Note my life",
   host: "localhost",
   port: "8042",
@@ -43,19 +43,37 @@ module.exports = {
     [
       "@vuepress/blog",
       {
+        sitemap: {
+          hostname: "http://localhost:8042"
+        },
         directories: [
+          {
+            id: "archived",
+            dirname: "blog/uncategorized",
+            path: "/blog/archived/",
+            itemPermalink: `/archived/:year/:month/:day/:slug`,
+            // pagination: {
+            //   perPagePosts: 5
+            // }
+          },
+          {
+            id: "anime",
+            dirname: "blog/anime",
+            path: "/blog/anime/",
+            itemPermalink: "/anime/:year/:month/:day/:slug",
+            // pagination: {
+            //   perPagePosts: 2
+            // }
+          },
           {
             id: "post",
             dirname: "blog",
-            path: "/",
-            itemPermalink: "/:year/:month/:day/:slug"
-          },
-          // {
-          // id: "archived",
-          // dirname: "blog/uncategorized",
-          // path: "/archived/",
-          // itemPermalink: "/archived/:year/:month/:day/:slug"
-          // },
+            path: "/blog/",
+            itemPermalink: "/blog/:year/:month/:day/:slug",
+            // pagination: {
+            //   perPagePosts: 2
+            // }
+          }
         ]
       }
     ]
