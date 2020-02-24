@@ -45,7 +45,7 @@ module.exports = {
       "@vuepress/blog",
       {
         sitemap: {
-          hostname: "http://localhost:8042"
+          hostname: "https://uwaylu.github.io/blog"
         },
         directories: [
           {
