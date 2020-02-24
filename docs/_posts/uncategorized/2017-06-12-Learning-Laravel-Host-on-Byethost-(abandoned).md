@@ -3,7 +3,6 @@ title: HOST Laravel on byethost (abandoned)
 date: 2017-06-12
 notebook: 15.Laravel
 tags: ["開發", "web開發", "PHP", "Laravel", "posted"]
-layout: post
 ---
 
 # 嘗試在 byethost 上運行 Laravel 開發的服務

@@ -3,7 +3,6 @@ title: Laravel-AdminLTE 中如何使用 Vue 開發
 date: 2017-05-06
 tags: ["web開發", "開發", "Laravel", "tools", "F2E", "posted"]
 notebook: 15.Laravel
-layout: post
 ---
 
 # Laravel-AdminLTE 中如何使用 Vue 開發

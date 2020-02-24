@@ -49,30 +49,12 @@ module.exports = {
         },
         directories: [
           {
-            id: "anime",
-            dirname: "_posts/anime",
-            path: "/_posts/anime/",
-            itemPermalink: "/anime/:year/:month/:day/:slug",
-            pagination: {
-              perPagePosts: 5
-            }
-          },
-          {
-            id: "archived",
-            dirname: "_posts/uncategorized",
-            path: "/_posts/archived/",
-            itemPermalink: "/archived/:year/:month/:day/:slug",
-            pagination: {
-              perPagePosts: 5
-            }
-          },
-          {
             id: "post",
             dirname: "_posts",
             path: "/",
             itemPermalink: "/:year/:month/:day/:slug",
             pagination: {
-              perPagePosts: 1
+              perPagePosts: 5
             }
           }
         ]

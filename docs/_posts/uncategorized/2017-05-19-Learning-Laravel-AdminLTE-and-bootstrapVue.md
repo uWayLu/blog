@@ -3,7 +3,6 @@ title: 在 Laravel-AdminLTE 中使用 bootstrapVue
 date: 2017-05-19
 tags: ["PHP", "web開發", "開發", "Laravel", "posted"]
 notebook: 15.Laravel
-layout: post
 ---
 
 先前整理過一篇筆記，[Laravel-AdminLTE 中如何使用 Vue 開發][1] 也是搞個半死。  
