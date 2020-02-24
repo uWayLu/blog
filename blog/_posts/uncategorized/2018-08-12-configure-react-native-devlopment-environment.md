@@ -35,10 +35,6 @@ tags: react-native javascript
 
 + [单独启动android studio模拟器](https://blog.csdn.net/jinmie0193/article/details/81188507)
 
-成功應該會看到以下畫面
-
-{% asset_img 1534083308392.png react native hello world %}
-
 ### 直接拿實機 adb 測試似乎比較直覺...
 
 ## 參考資料

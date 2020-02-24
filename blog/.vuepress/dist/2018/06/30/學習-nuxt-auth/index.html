@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>學習 Nuxt Auth | Webb Site</title>
+    <meta name="description" content="
+
+一陣子沒碰前端了，先前用 nuxt 做了兩個起始專案
+一個是練習用，Vuetify + Nuxt 做了 FGO 的活動兌換計算機
+以及看別人 firebase + Nuxt 是怎麼整合
+
+GitHub: Practice
+公司的線上金流服務維護後台 UI
+
+但一直有個問題就是，怎麼去實作 Auth Route 部 ...">
+    <meta name="generator" content="VuePress 1.3.1">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.2d97f882.css" as="style"><link rel="preload" href="/assets/js/app.a476768c.js" as="script"><link rel="preload" href="/assets/js/6.c650b02b.js" as="script"><link rel="preload" href="/assets/js/4.97648916.js" as="script"><link rel="preload" href="/assets/js/24.51848569.js" as="script"><link rel="prefetch" href="/assets/js/1.8c5e5030.js"><link rel="prefetch" href="/assets/js/10.51af10c9.js"><link rel="prefetch" href="/assets/js/11.51ffef52.js"><link rel="prefetch" href="/assets/js/12.0ff238b0.js"><link rel="prefetch" href="/assets/js/13.73da5e8f.js"><link rel="prefetch" href="/assets/js/14.e30a7e04.js"><link rel="prefetch" href="/assets/js/15.46e78161.js"><link rel="prefetch" href="/assets/js/16.fee85833.js"><link rel="prefetch" href="/assets/js/17.ef214ee5.js"><link rel="prefetch" href="/assets/js/18.95a0c89a.js"><link rel="prefetch" href="/assets/js/19.c56b7de7.js"><link rel="prefetch" href="/assets/js/20.d7b06d28.js"><link rel="prefetch" href="/assets/js/21.ed1a2c97.js"><link rel="prefetch" href="/assets/js/22.69454138.js"><link rel="prefetch" href="/assets/js/23.b21aa94c.js"><link rel="prefetch" href="/assets/js/25.bd4184d1.js"><link rel="prefetch" href="/assets/js/26.43d98213.js"><link rel="prefetch" href="/assets/js/27.ca04ad80.js"><link rel="prefetch" href="/assets/js/5.9a036d2e.js"><link rel="prefetch" href="/assets/js/7.2ae0b93b.js"><link rel="prefetch" href="/assets/js/8.fc65acc8.js"><link rel="prefetch" href="/assets/js/9.6f71c29d.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.8d2cad8c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2d97f882.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/" class="nav-link home-link">Webb Site </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/" class="nav-link">Blog</a></li><li class="nav-item"><a href="/tag/" class="nav-link">Tags</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="nav-link mobile-home-link">Webb Site </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/" class="nav-link">Blog</a></li><li class="mobile-nav-item"><a href="/tag/" class="nav-link">Tags</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div id="vuepress-theme-blog__post-layout"><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content"><header><h1 itemprop="name headline" class="post-title">
+        學習 Nuxt Auth
+      </h1> <div class="post-meta"><!----> <div class="post-meta-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2018-06-29T23:02:42.000Z">
+      Sat Jun 30 2018
+    </time></div> <!----></div></header> <div itemprop="articleBody" class="content__default"><h1 id="學習-nuxt-auth"><a href="#學習-nuxt-auth" class="header-anchor">#</a> 學習 Nuxt Auth</h1> <p>一陣子沒碰前端了，先前用 nuxt 做了兩個起始專案
+一個是練習用，Vuetify + Nuxt 做了 FGO 的活動兌換計算機
+以及看別人 firebase + Nuxt 是怎麼整合</p> <ul><li><a href="https://github.com/uWayLu/Pratice" target="_blank" rel="noopener noreferrer">GitHub: Practice<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>公司的線上金流服務維護後台 UI</li></ul> <p>但一直有個問題就是，怎麼去實作 Auth Route 部份這塊
+先前只學習到 pathToPage 會根據 Nuxt 下的目錄結構去生成</p> <p>最近要實作權限管理，因為將專案的前後端分離，
+後端只提供 api 去請求資源
+趕快來惡補一下整個權限的架構</p> <h2 id="權限策略"><a href="#權限策略" class="header-anchor">#</a> 權限策略</h2> <p>在 <a href="https://blog.csdn.net/harsima/article/details/77949448" title="Vue + ElementUI 手撸后台管理网站基本框架(二)权限控制" target="_blank" rel="noopener noreferrer">Vue + ElementUI 手撸后台管理网站基本框架(二)权限控制<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>中</p> <blockquote><p>前端记录所有的权限。用户登录后，后端返回用户角色，前端根据角色自行分配页面
+前端仅记录页面，后端记录权限。
+用户登陆后，后端返回用户权限列表，前端根据该列表生成可访问页面</p></blockquote> <p>基本上就是 2，所以會有最高權限，部份權限，一般人員大概三個等級</p> <h2 id="auth"><a href="#auth" class="header-anchor">#</a> Auth</h2> <p>驗證基本上是 middleware 有登入狀態的導向，以及非登入狀態的導向處理
+根據頁面的性質去引入對應的 middleware
+(比如說，註冊、登入、GUEST 這些頁面是不需要登入的，
+而個人資料當然要登入狀態才能夠訪問)</p> <h2 id="小結"><a href="#小結" class="header-anchor">#</a> 小結</h2> <p>好，又是標準離題
+基本上目前專案卡的問題是在需求變更，
+需要追加權限的功能去允許多站台共用同一後台
+當初自己設計的簡單 ORM 沒有考慮到分站台，
+schema 要變更的情況下，db 部署也是問題
+並且因為要分站台撈取資料，以及允許後台做 CRUD，複雜度直接上升
+在後端架構處理好後，再來考慮 UI 的動態 router 問題</p></div> <footer><!----> <hr> <!----></footer></article> <div class="sticker vuepress-toc"><div class="vuepress-toc-item vuepress-toc-h2 active"><a href="#權限策略" title="權限策略">權限策略</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#auth" title="Auth">Auth</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#小結" title="小結">小結</a></div></div></div></div> <footer class="footer" data-v-582f9766><div class="footer-left-wrap" data-v-582f9766><ul class="contact" data-v-582f9766></ul></div> <div class="footer-right-wrap" data-v-582f9766><ul class="copyright" data-v-582f9766></ul></div></footer></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a476768c.js" defer></script><script src="/assets/js/6.c650b02b.js" defer></script><script src="/assets/js/4.97648916.js" defer></script><script src="/assets/js/24.51848569.js" defer></script>
+  </body>
+</html>
