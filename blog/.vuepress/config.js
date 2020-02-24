@@ -3,6 +3,7 @@ module.exports = {
   description: "Note my life",
   host: "localhost",
   port: "8042",
+  base: "/blog/",
   extraWatchFiles: [],
   theme: "@vuepress/theme-blog",
   themeConfig: {
