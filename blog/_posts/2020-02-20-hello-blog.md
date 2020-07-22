@@ -1,6 +1,7 @@
 ---
 title: Hello Blog
 date: 2020-02-24
+updated: 2020-07-23
 tags:
   - Blog
   - Vuepress
@@ -16,8 +17,9 @@ summary: First Article with vupress. Write todo, configurations and logs.
 - [x] Init [vuepress/plugin-blog](https://vuepress-plugin-blog.ulivz.com/)
 - [x] Init [vurpress/theme-blog](https://vuepress-theme-blog.ulivz.com/)
 - [ ] Google Analysis
-- [ ] Disqus
+- [ ] 3rd-party Comment
 - [ ] Tags Cloud
+- [ ] Blogger Info
 - [ ] ...
 
 文章才是本體！先寫文章！
