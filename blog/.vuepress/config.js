@@ -42,7 +42,7 @@ module.exports = {
     sidebar: "auto"
   },
   plugins: [
-    /* [
+    [
       "@vuepress/blog",
       {
         sitemap: {
@@ -58,9 +58,16 @@ module.exports = {
               perPagePosts: 5
             }
           }
+        ],
+        frontmatters: [
+          {
+            id: 'tag',
+            keys: ['tags'],
+            path: '/tag/',
+          },
         ]
       }
-    ] */
+    ]
   ],
   markdown: {
     config: md => {
