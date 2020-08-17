@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "blog:dev": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev blog",
+    "blog:dev": "vuepress dev blog",
+    "blog:dev2": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev blog",
     "blog:build": "vuepress build blog"
   },
   "dependencies": {},
