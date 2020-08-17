@@ -42,7 +42,7 @@ module.exports = {
     sidebar: "auto"
   },
   plugins: [
-    [
+    /* [
       "@vuepress/blog",
       {
         sitemap: {
@@ -60,7 +60,7 @@ module.exports = {
           }
         ]
       }
-    ]
+    ] */
   ],
   markdown: {
     config: md => {
