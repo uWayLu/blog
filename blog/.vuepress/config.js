@@ -67,7 +67,8 @@ module.exports = {
           },
         ]
       }
-    ]
+    ],
+    'vuepress-plugin-mermaidjs'
   ],
   markdown: {
     config: md => {

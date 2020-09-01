@@ -1,4 +1,7 @@
 {
+  "description": "Webb's Blog",
+  "repository": {},
+  "license": "MIT",
   "scripts": {
     "blog:dev": "vuepress dev blog",
     "blog:dev2": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev blog",
@@ -7,11 +10,14 @@
   "dependencies": {},
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.2",
-    "@vuepress/theme-blog": "^2.3.1",
+    "@vuepress/theme-blog": "^2.3.2",
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^6.2.2",
     "nodemon": "^2.0.4",
-    "vuepress": "^1.5.3",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "vuepress": "^1.5.4",
+    "vue": "2.6.12",
+    "vuepress-plugin-mermaidjs": "^1.7.2",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "esm": "^3.0.0"
   }
 }
