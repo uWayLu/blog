@@ -1,0 +1,151 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Webb Site",
+    "home_page_url": "https://uwaylu.github.io/blog",
+    "feed_url": "https://uwaylu.github.io/blog/feed.json",
+    "description": "Note my life",
+    "items": [
+        {
+            "id": "https://uwaylu.github.io/blog/2020/02/24/hello-blog/",
+            "url": "https://uwaylu.github.io/blog/2020/02/24/hello-blog/",
+            "title": "Hello Blog",
+            "summary": "First Article with vupress. Write todo, configurations and logs.",
+            "date_modified": "2020-02-24T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2020/07/12/blog-fix/",
+            "url": "https://uwaylu.github.io/blog/2020/07/12/blog-fix/",
+            "title": "更新紀錄 20200712",
+            "summary": "網站更新",
+            "date_modified": "2020-07-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2020/07/22/%E5%9C%A8%E4%BB%A5%E5%A4%AA%E6%B8%AC%E8%A9%A6%E9%8F%88%E7%99%BC%E5%B9%A3/",
+            "url": "https://uwaylu.github.io/blog/2020/07/22/%E5%9C%A8%E4%BB%A5%E5%A4%AA%E6%B8%AC%E8%A9%A6%E9%8F%88%E7%99%BC%E5%B9%A3/",
+            "title": "在以太測試鏈發幣",
+            "summary": "參考發幣小白文及科普文",
+            "date_modified": "2020-07-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2020/08/16/%E9%85%8D%E7%BD%AE%E7%A2%BC%E8%BE%B2%E5%B7%A5%E4%BD%9C%E7%92%B0%E5%A2%83/",
+            "url": "https://uwaylu.github.io/blog/2020/08/16/%E9%85%8D%E7%BD%AE%E7%A2%BC%E8%BE%B2%E5%B7%A5%E4%BD%9C%E7%92%B0%E5%A2%83/",
+            "title": "配置碼農工作環境",
+            "summary": "這是從 windows 準備 Linux USB 碟，到安裝後的簡單設定筆記。",
+            "date_modified": "2020-08-16T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2020/08/31/ifttt-rss-to-discord/",
+            "url": "https://uwaylu.github.io/blog/2020/08/31/ifttt-rss-to-discord/",
+            "title": "IFTTT: RSS to Discord",
+            "summary": "透過 IFTTT 訂閱 RSS 並發送通知到 Discord",
+            "image": "https://uwaylu.github.io/blog/../assets/images/ifttt-rss-to-discord-2020-08-31-031013.png",
+            "date_modified": "2020-08-31T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2020/09/01/nomachine-connect-to-linux-with-gui/",
+            "url": "https://uwaylu.github.io/blog/2020/09/01/nomachine-connect-to-linux-with-gui/",
+            "title": "NoMachine: Connect to linux with GUI",
+            "summary": "這是一個關於 NoMachine Server 沒有實體 Monitor 的故事。",
+            "date_modified": "2020-09-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2020/09/08/%E5%BB%BA%E7%AB%8B%E4%BB%A5%E5%A4%AA%E5%9D%8A%E6%B8%AC%E8%A9%A6%E7%AF%80%E9%BB%9E/",
+            "url": "https://uwaylu.github.io/blog/2020/09/08/%E5%BB%BA%E7%AB%8B%E4%BB%A5%E5%A4%AA%E5%9D%8A%E6%B8%AC%E8%A9%A6%E7%AF%80%E9%BB%9E/",
+            "title": "建立以太坊測試節點",
+            "summary": "菜逼巴建立以太坊測試節點的血淚紀錄",
+            "date_modified": "2020-09-08T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
+            "url": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
+            "title": "天氣之子觀後感",
+            "summary": "人與人之間期待著聯繫嗎",
+            "image": "https://uwaylu.github.io/blog/../../assets/images/natsumi.png",
+            "date_modified": "2019-10-07T01:11:11.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2017/04/11/learning-laravel-install-and-configure/",
+            "url": "https://uwaylu.github.io/blog/2017/04/11/learning-laravel-install-and-configure/",
+            "title": "Laravel 學習筆記（一）：安裝與設置",
+            "summary": "本系列筆記跟隨 johnlui/Learn-Laravel-5 的教學脈絡；\n2016 版 Laravel 系列入门教程（一）\n\n說要學 Laravel 說好久，前前後後斷斷續續也裝了三四次，\n這次要設置環境看著 Manual 還是要花點時間思考，看來還是老實作筆記實在。\n\n之前曾經使用過 composer 安裝、以 git clone 方式安裝[基於Laravel 的 CMS ...",
+            "date_modified": "2017-04-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2017/04/12/learning-laravel-auth-and-eloquentorm/",
+            "url": "https://uwaylu.github.io/blog/2017/04/12/learning-laravel-auth-and-eloquentorm/",
+            "title": "Laravel 學習筆記（二）：Auth and Eloquent ORM",
+            "summary": "本系列筆記跟隨 johnlui/Learn-Laravel-5 的教學脈絡；\n2016 版 Laravel 系列入门教程（二）\n\n透過 PHP 5.4 Trait 特性所實現的 Auth 機制，可以應付輕量權限系統之需求。本篇用到的 sh 指令整理如下：\n\nAuth 系統，並 migrate 相對應的資料表\nphp artisan make:au ...",
+            "date_modified": "2017-04-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2017/04/15/learning-laravel-routing-namespace-and-mvc/",
+            "url": "https://uwaylu.github.io/blog/2017/04/15/learning-laravel-routing-namespace-and-mvc/",
+            "title": "Laravel 學習筆記（三）：Routing, Namespace, and MVC",
+            "summary": "本系列筆記跟隨 johnlui/Learn-Laravel-5 的教學脈絡；\n2016 版 Laravel 系列入门教程（三）\n\n所有 PHP 框架的核心路由系統，定義訪問 URL 所映射的 MVC code 片段。\n\n路由\n閱讀 Laravel 5.4 Routing 官方文檔。\n\n> Note: 5.3+ 版本的路由檔案規劃和舊版本不 ...",
+            "date_modified": "2017-04-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2017/04/16/learning-laravel-simple-blog/",
+            "url": "https://uwaylu.github.io/blog/2017/04/16/learning-laravel-simple-blog/",
+            "title": "Laravel 學習筆記（四）：簡單的 blog 系統",
+            "summary": "本系列筆記跟隨 johnlui/Learn-Laravel-5 的教學脈絡；\n2016 版 Laravel 系列入门教程（四）\n\n路由規劃：訪問 'www.myhost/' 即可瀏覽網站首頁\n理解 laravel 的 views，其中 layouts 與 views 的關係可以為父子或無關係。\n`php artisan make:controller ...",
+            "date_modified": "2017-04-16T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2017/04/17/learning-laravel-composer-and-evernoteapi/",
+            "url": "https://uwaylu.github.io/blog/2017/04/17/learning-laravel-composer-and-evernoteapi/",
+            "title": "Laravel 學習筆記（五）：Composer 與 Evernote API",
+            "summary": "Composer 官方中文說明文檔。\n\n為了實行透過做自動 post 文章的想法，首先要學會使用 Evenote 的 API。\nEvernote 有提供 SDK for PHP evernote-cloud-sdk-php on Github，可以透過 composer 安裝，\n\n那麼，問題來了，相依套件衝突時就無法安裝，除錯囉 QQ\n\nCompose ...",
+            "date_modified": "2017-04-17T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2017/05/06/learning-laravel-adminlte-and-vue/",
+            "url": "https://uwaylu.github.io/blog/2017/05/06/learning-laravel-adminlte-and-vue/",
+            "title": "Laravel-AdminLTE 中如何使用 Vue 開發",
+            "summary": "page source 反查出 app.js\n於 Vue 虛擬 DOM 中新增測試訊息並顯示\n\n// public/js/app.js\nvar app = new Vue({\n  el: '#app',\n  data: {\n    message: 'Hello, World! 20170506 added; webpack test.'\n  }\n}) ...",
+            "date_modified": "2017-05-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2017/05/19/learning-laravel-adminlte-and-bootstrapvue/",
+            "url": "https://uwaylu.github.io/blog/2017/05/19/learning-laravel-adminlte-and-bootstrapvue/",
+            "title": "在 Laravel-AdminLTE 中使用 bootstrapVue",
+            "summary": "先前整理過一篇筆記，Laravel-AdminLTE 中如何使用 Vue 開發 也是搞個半死。\n這次研究時上手了一點，其實概念和 BootstrapVue: Quick Start 文檔說明相同，以下為關鍵部分\n\n// Register BootstrapVue in your app entrypoint:\nimport Vue from 'vue'\nimpo ...",
+            "date_modified": "2017-05-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2017/06/12/learning-laravel-host-on-byethost-abandoned/",
+            "url": "https://uwaylu.github.io/blog/2017/06/12/learning-laravel-host-on-byethost-abandoned/",
+            "title": "HOST Laravel on byethost (abandoned)",
+            "summary": "幾乎成功了，最後還是放棄，特此紀錄。\n\n遇到的問題\n\n堆棧報錯 config 中的 key improperly\n欲實現 domain/ 即導向 laravel_proj/public/ ， .htaccess 我設置不好；\n   能夠順利導向訪問 php 之 uri ，無法設置好 css, js 等相關目錄\n覺得非正規解 1.；`$ENV['VARNAME' ...",
+            "date_modified": "2017-06-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2017/08/03/static-pages-on-github/",
+            "url": "https://uwaylu.github.io/blog/2017/08/03/static-pages-on-github/",
+            "title": "Static Pages on Github",
+            "summary": "筆記與靜態頁面很合適，更新頻率不高。\n可以與線上服務分離，以檔案形式(*.md)保存資料。\n\n我嘗試過以下作法：\n\nJoomla! on OpenShift\nWordPress on OpenShift\n ...",
+            "date_modified": "2017-08-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2018/06/29/%E5%AD%B8%E7%BF%92-nuxt-auth/",
+            "url": "https://uwaylu.github.io/blog/2018/06/29/%E5%AD%B8%E7%BF%92-nuxt-auth/",
+            "title": "學習 Nuxt Auth",
+            "summary": "一陣子沒碰前端了，先前用 nuxt 做了兩個起始專案\n一個是練習用，Vuetify + Nuxt 做了 FGO 的活動兌換計算機\n以及看別人 firebase + Nuxt 是怎麼整合\n\nGitHub: Practice\n公司的線上金流服務維護後台 UI\n\n但一直有個問題就是，怎麼去實作 Auth Route 部 ...",
+            "date_modified": "2018-06-29T23:02:42.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2018/08/12/configure-react-native-devlopment-environment/",
+            "url": "https://uwaylu.github.io/blog/2018/08/12/configure-react-native-devlopment-environment/",
+            "title": "Configure-React-Native-Devlopment-Environment",
+            "summary": "需要安裝\n\nnpm / yarn\n\nyarn global add react-native-cli\n\nandroid studio  yay -Syu android-studio   archwiki: android\n\n  > 裝完再透過 androiod st ...",
+            "date_modified": "2018-08-12T20:02:58.000Z"
+        },
+        {
+            "id": "https://uwaylu.github.io/blog/2018/08/13/configure-my-aria2/",
+            "url": "https://uwaylu.github.io/blog/2018/08/13/configure-my-aria2/",
+            "title": "Configure My Aria2",
+            "summary": "cli 使用方式很直覺，就是 aria2c source_url 然後支援幾種參數\n\naria2c https://uwaylu.github.io\n\naria2c -x2 https://uwaylu.github.io 2 connections\n\naria2c https://uwaylu.github.io https://uwaylu2.github.io from ...",
+            "date_modified": "2018-08-13T21:44:14.000Z"
+        }
+    ]
+}
