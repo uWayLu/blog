@@ -56,6 +56,13 @@
             "date_modified": "2020-09-08T00:00:00.000Z"
         },
         {
+            "id": "https://uwaylu.github.io/blog/2020/11/29/backup-to-gdrive-with-rclone/",
+            "url": "https://uwaylu.github.io/blog/2020/11/29/backup-to-gdrive-with-rclone/",
+            "title": "(WIP): Backup to Google Drive with Rclone",
+            "summary": "About Rclone\n> Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces. Over 40 cloud stora ...",
+            "date_modified": "2020-11-29T00:00:00.000Z"
+        },
+        {
             "id": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
             "url": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
             "title": "天氣之子觀後感",
@@ -139,13 +146,6 @@
             "title": "Configure-React-Native-Devlopment-Environment",
             "summary": "需要安裝\n\nnpm / yarn\n\nyarn global add react-native-cli\n\nandroid studio  yay -Syu android-studio   archwiki: android\n\n  > 裝完再透過 androiod st ...",
             "date_modified": "2018-08-12T20:02:58.000Z"
-        },
-        {
-            "id": "https://uwaylu.github.io/blog/2018/08/13/configure-my-aria2/",
-            "url": "https://uwaylu.github.io/blog/2018/08/13/configure-my-aria2/",
-            "title": "Configure My Aria2",
-            "summary": "cli 使用方式很直覺，就是 aria2c source_url 然後支援幾種參數\n\naria2c https://uwaylu.github.io\n\naria2c -x2 https://uwaylu.github.io 2 connections\n\naria2c https://uwaylu.github.io https://uwaylu2.github.io from ...",
-            "date_modified": "2018-08-13T21:44:14.000Z"
         }
     ]
 }
