@@ -39,14 +39,18 @@ module.exports = {
     //     link: "/_posts/2019/10/07/天氣之子觀後感/"
     //   }
     // ],
-    sidebar: "auto"
+    sidebar: "auto",
   },
   plugins: [
     [
       "@vuepress/blog",
       {
         sitemap: {
-          hostname: "https://uwaylu.github.io/blog"
+          hostname: "https://uwaylu.github.io/blog",
+        },
+        feed: {
+          canonical_base: "https://uwaylu.github.io/blog",
+          rss: true,
         },
         directories: [
           {
@@ -55,24 +59,24 @@ module.exports = {
             path: "/",
             itemPermalink: "/:year/:month/:day/:slug",
             pagination: {
-              perPagePosts: 5
-            }
-          }
+              perPagePosts: 5,
+            },
+          },
         ],
         frontmatters: [
           {
-            id: 'tag',
-            keys: ['tags'],
-            path: '/tag/',
+            id: "tag",
+            keys: ["tags"],
+            path: "/tag/",
           },
-        ]
-      }
+        ],
+      },
     ],
-    'vuepress-plugin-mermaidjs'
+    "vuepress-plugin-mermaidjs",
   ],
   markdown: {
-    config: md => {
-      md.set({ breaks: true })
-    }
-  }
+    config: (md) => {
+      md.set({ breaks: true });
+    },
+  },
 };

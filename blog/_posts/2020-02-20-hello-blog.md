@@ -18,9 +18,10 @@ summary: First Article with vupress. Write todo, configurations and logs.
 - [x] Init [vurpress/theme-blog](https://vuepress-theme-blog.ulivz.com/)
 - [ ] Google Analysis
 - [ ] 3rd-party Comment
-- [ ] Tags Cloud
+- [x] Tags Cloud
 - [ ] Blogger Info
 - [ ] ...
++ [x] RSS
 
 文章才是本體！先寫文章！
 
