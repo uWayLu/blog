@@ -4,7 +4,7 @@
         <title>Webb Site</title>
         <link>https://uwaylu.github.io/blog</link>
         <description>Note my life</description>
-        <lastBuildDate>Sun, 29 Nov 2020 06:58:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Mar 2021 18:13:39 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://uwaylu.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -66,6 +66,15 @@
             <pubDate>Sun, 29 Nov 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[About Rclone
 > Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces. Over 40 cloud stora ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[PTT 每日自動登入]]></title>
+            <link>https://uwaylu.github.io/blog/2021/03/04/ptt%E6%AF%8F%E6%97%A5%E8%87%AA%E5%8B%95%E7%99%BB%E5%85%A5/</link>
+            <guid>https://uwaylu.github.io/blog/2021/03/04/ptt%E6%AF%8F%E6%97%A5%E8%87%AA%E5%8B%95%E7%99%BB%E5%85%A5/</guid>
+            <pubDate>Thu, 04 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[讓排程來幫你每日自動登入PTT吧！]]></description>
+            <enclosure url="https://uwaylu.github.io/blog/../assets/images/ptt-auto-login-record.png">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[天氣之子觀後感]]></title>
@@ -212,21 +221,6 @@ GitHub: Practice
 公司的線上金流服務維護後台 UI
 
 但一直有個問題就是，怎麼去實作 Auth Route 部 ...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Configure-React-Native-Devlopment-Environment]]></title>
-            <link>https://uwaylu.github.io/blog/2018/08/12/configure-react-native-devlopment-environment/</link>
-            <guid>https://uwaylu.github.io/blog/2018/08/12/configure-react-native-devlopment-environment/</guid>
-            <pubDate>Sun, 12 Aug 2018 20:02:58 GMT</pubDate>
-            <description><![CDATA[需要安裝
-
-npm / yarn
-
-yarn global add react-native-cli
-
-android studio  yay -Syu android-studio   archwiki: android
-
-  > 裝完再透過 androiod st ...]]></description>
         </item>
     </channel>
 </rss>

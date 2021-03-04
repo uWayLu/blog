@@ -63,6 +63,14 @@
             "date_modified": "2020-11-29T00:00:00.000Z"
         },
         {
+            "id": "https://uwaylu.github.io/blog/2021/03/04/ptt%E6%AF%8F%E6%97%A5%E8%87%AA%E5%8B%95%E7%99%BB%E5%85%A5/",
+            "url": "https://uwaylu.github.io/blog/2021/03/04/ptt%E6%AF%8F%E6%97%A5%E8%87%AA%E5%8B%95%E7%99%BB%E5%85%A5/",
+            "title": "PTT 每日自動登入",
+            "summary": "讓排程來幫你每日自動登入PTT吧！",
+            "image": "https://uwaylu.github.io/blog/../assets/images/ptt-auto-login-record.png",
+            "date_modified": "2021-03-04T00:00:00.000Z"
+        },
+        {
             "id": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
             "url": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
             "title": "天氣之子觀後感",
@@ -139,13 +147,6 @@
             "title": "學習 Nuxt Auth",
             "summary": "一陣子沒碰前端了，先前用 nuxt 做了兩個起始專案\n一個是練習用，Vuetify + Nuxt 做了 FGO 的活動兌換計算機\n以及看別人 firebase + Nuxt 是怎麼整合\n\nGitHub: Practice\n公司的線上金流服務維護後台 UI\n\n但一直有個問題就是，怎麼去實作 Auth Route 部 ...",
             "date_modified": "2018-06-29T23:02:42.000Z"
-        },
-        {
-            "id": "https://uwaylu.github.io/blog/2018/08/12/configure-react-native-devlopment-environment/",
-            "url": "https://uwaylu.github.io/blog/2018/08/12/configure-react-native-devlopment-environment/",
-            "title": "Configure-React-Native-Devlopment-Environment",
-            "summary": "需要安裝\n\nnpm / yarn\n\nyarn global add react-native-cli\n\nandroid studio  yay -Syu android-studio   archwiki: android\n\n  > 裝完再透過 androiod st ...",
-            "date_modified": "2018-08-12T20:02:58.000Z"
         }
     ]
 }
