@@ -22,6 +22,7 @@ summary: First Article with vupress. Write todo, configurations and logs.
 - [ ] Blogger Info
 - [ ] ...
 + [x] RSS
++ [ ] Tags Cloud case-sensitive
 
 文章才是本體！先寫文章！
 
