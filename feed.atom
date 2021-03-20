@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://uwaylu.github.io/blog</id>
     <title>Webb Site</title>
-    <updated>2021-03-20T07:10:05.979Z</updated>
+    <updated>2021-03-20T08:55:57.311Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://uwaylu.github.io/blog"/>
     <link rel="self" href="https://uwaylu.github.io/blog/feed.atom"/>
