@@ -4,7 +4,7 @@
         <title>Webb Site</title>
         <link>https://uwaylu.github.io/blog</link>
         <description>Note my life</description>
-        <lastBuildDate>Sat, 20 Mar 2021 08:55:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Mar 2021 18:07:09 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://uwaylu.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -75,6 +75,13 @@
             <description><![CDATA[讓排程來幫你每日自動登入PTT吧！]]></description>
             <enclosure url="https://uwaylu.github.io/blog/../assets/images/ptt-auto-login-record.png">
             </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[PHP 程式碼命名風格]]></title>
+            <link>https://uwaylu.github.io/blog/2021/03/24/php%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%91%BD%E5%90%8D%E9%A2%A8%E6%A0%BC/</link>
+            <guid>https://uwaylu.github.io/blog/2021/03/24/php%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%91%BD%E5%90%8D%E9%A2%A8%E6%A0%BC/</guid>
+            <pubDate>Wed, 24 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[讓排程來幫你每日自動登入PTT吧！]]></description>
         </item>
         <item>
             <title><![CDATA[天氣之子觀後感]]></title>
@@ -207,20 +214,6 @@ impo ...]]></description>
 Joomla! on OpenShift
 WordPress on OpenShift
  ...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[學習 Nuxt Auth]]></title>
-            <link>https://uwaylu.github.io/blog/2018/06/29/%E5%AD%B8%E7%BF%92-nuxt-auth/</link>
-            <guid>https://uwaylu.github.io/blog/2018/06/29/%E5%AD%B8%E7%BF%92-nuxt-auth/</guid>
-            <pubDate>Fri, 29 Jun 2018 23:02:42 GMT</pubDate>
-            <description><![CDATA[一陣子沒碰前端了，先前用 nuxt 做了兩個起始專案
-一個是練習用，Vuetify + Nuxt 做了 FGO 的活動兌換計算機
-以及看別人 firebase + Nuxt 是怎麼整合
-
-GitHub: Practice
-公司的線上金流服務維護後台 UI
-
-但一直有個問題就是，怎麼去實作 Auth Route 部 ...]]></description>
         </item>
     </channel>
 </rss>
