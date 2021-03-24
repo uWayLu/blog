@@ -4,7 +4,7 @@
         <title>Webb Site</title>
         <link>https://uwaylu.github.io/blog</link>
         <description>Note my life</description>
-        <lastBuildDate>Wed, 24 Mar 2021 18:07:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Mar 2021 18:12:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://uwaylu.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -81,7 +81,7 @@
             <link>https://uwaylu.github.io/blog/2021/03/24/php%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%91%BD%E5%90%8D%E9%A2%A8%E6%A0%BC/</link>
             <guid>https://uwaylu.github.io/blog/2021/03/24/php%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%91%BD%E5%90%8D%E9%A2%A8%E6%A0%BC/</guid>
             <pubDate>Wed, 24 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[讓排程來幫你每日自動登入PTT吧！]]></description>
+            <description><![CDATA[本篇是筆記性質，整理自己開發 PHP 7 時要用的程式碼風格。]]></description>
         </item>
         <item>
             <title><![CDATA[天氣之子觀後感]]></title>
