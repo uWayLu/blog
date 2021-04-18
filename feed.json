@@ -78,6 +78,14 @@
             "date_modified": "2021-03-24T00:00:00.000Z"
         },
         {
+            "id": "https://uwaylu.github.io/blog/2021/04/18/hello-world-about-notion-blog/",
+            "url": "https://uwaylu.github.io/blog/2021/04/18/hello-world-about-notion-blog/",
+            "title": "Hello World: About Notion Blog",
+            "summary": "這篇文章介紹 notion-blog 與相關資訊。",
+            "image": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F87f40e8a-a59a-43e1-a4bf-aba8aa546353%2FUntitled.png?table=block&id=8ad10fbe-2a87-46f0-b9f7-1fa5f9ea86ea&width=1300&userId=&cache=v2",
+            "date_modified": "2021-04-18T00:00:00.000Z"
+        },
+        {
             "id": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
             "url": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
             "title": "天氣之子觀後感",
@@ -140,13 +148,6 @@
             "title": "HOST Laravel on byethost (abandoned)",
             "summary": "幾乎成功了，最後還是放棄，特此紀錄。\n\n遇到的問題\n\n堆棧報錯 config 中的 key improperly\n欲實現 domain/ 即導向 laravel_proj/public/ ， .htaccess 我設置不好；\n   能夠順利導向訪問 php 之 uri ，無法設置好 css, js 等相關目錄\n覺得非正規解 1.；`$ENV['VARNAME' ...",
             "date_modified": "2017-06-12T00:00:00.000Z"
-        },
-        {
-            "id": "https://uwaylu.github.io/blog/2017/08/03/static-pages-on-github/",
-            "url": "https://uwaylu.github.io/blog/2017/08/03/static-pages-on-github/",
-            "title": "Static Pages on Github",
-            "summary": "筆記與靜態頁面很合適，更新頻率不高。\n可以與線上服務分離，以檔案形式(*.md)保存資料。\n\n我嘗試過以下作法：\n\nJoomla! on OpenShift\nWordPress on OpenShift\n ...",
-            "date_modified": "2017-08-03T00:00:00.000Z"
         }
     ]
 }
