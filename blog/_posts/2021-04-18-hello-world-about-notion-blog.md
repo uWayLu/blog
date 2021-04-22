@@ -67,7 +67,7 @@ Next.js 是 React 的 SSR 框架，Vue 也有類似的 SSR 框架叫做 Nuxt，�
 
 - notion bookmark 不支援
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87f40e8a-a59a-43e1-a4bf-aba8aa546353/Untitled.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F87f40e8a-a59a-43e1-a4bf-aba8aa546353%2FUntitled.png?table=block&id=8ad10fbe-2a87-46f0-b9f7-1fa5f9ea86ea&width=1300&userId=&cache=v2)
+![Bookmark not supported](../assets/images/2021-04-18-hello-notion-blog-bookmark-not-supported.png)
 
 ## 其他資料
 
