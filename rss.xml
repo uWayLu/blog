@@ -4,7 +4,7 @@
         <title>Webb Site</title>
         <link>https://uwaylu.github.io/blog</link>
         <description>Note my life</description>
-        <lastBuildDate>Sun, 18 Apr 2021 15:05:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Apr 2021 17:52:13 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://uwaylu.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -89,7 +89,16 @@
             <guid>https://uwaylu.github.io/blog/2021/04/18/hello-world-about-notion-blog/</guid>
             <pubDate>Sun, 18 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[這篇文章介紹 notion-blog 與相關資訊。]]></description>
-            <enclosure url="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F87f40e8a-a59a-43e1-a4bf-aba8aa546353%2FUntitled.png?table=block&amp;id=8ad10fbe-2a87-46f0-b9f7-1fa5f9ea86ea&amp;width=1300&amp;userId=&amp;cache=v2">
+            <enclosure url="https://uwaylu.github.io/blog/../assets/images/2021-04-18-hello-notion-blog-bookmark-not-supported.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Hello World: Laravel RealWorld Example App]]></title>
+            <link>https://uwaylu.github.io/blog/2021/04/22/hello-world-laravel-realworld-example-app/</link>
+            <guid>https://uwaylu.github.io/blog/2021/04/22/hello-world-laravel-realworld-example-app/</guid>
+            <pubDate>Thu, 22 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[這篇文章是 Laravel Realworld Example App 初見筆記。]]></description>
+            <enclosure url="https://uwaylu.github.io/blog/./images/../../assets/images/2021-04-22-laravel-realworld-phpunit.png">
             </enclosure>
         </item>
         <item>
@@ -195,20 +204,6 @@ var app = new Vue({
 // Register BootstrapVue in your app entrypoint:
 import Vue from 'vue'
 impo ...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[HOST Laravel on byethost (abandoned)]]></title>
-            <link>https://uwaylu.github.io/blog/2017/06/12/learning-laravel-host-on-byethost-abandoned/</link>
-            <guid>https://uwaylu.github.io/blog/2017/06/12/learning-laravel-host-on-byethost-abandoned/</guid>
-            <pubDate>Mon, 12 Jun 2017 00:00:00 GMT</pubDate>
-            <description><![CDATA[幾乎成功了，最後還是放棄，特此紀錄。
-
-遇到的問題
-
-堆棧報錯 config 中的 key improperly
-欲實現 domain/ 即導向 laravel_proj/public/ ， .htaccess 我設置不好；
-   能夠順利導向訪問 php 之 uri ，無法設置好 css, js 等相關目錄
-覺得非正規解 1.；`$ENV['VARNAME' ...]]></description>
         </item>
     </channel>
 </rss>
