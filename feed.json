@@ -94,6 +94,14 @@
             "date_modified": "2021-04-22T00:00:00.000Z"
         },
         {
+            "id": "https://uwaylu.github.io/blog/2021/09/16/%E9%97%9C%E6%96%BC%E6%88%91%E5%B0%88%E6%A1%88%E8%B8%A9%E5%88%B0%E9%80%A3%E7%92%B0%E9%9B%B7%E9%80%99%E4%BB%B6%E4%BA%8B/",
+            "url": "https://uwaylu.github.io/blog/2021/09/16/%E9%97%9C%E6%96%BC%E6%88%91%E5%B0%88%E6%A1%88%E8%B8%A9%E5%88%B0%E9%80%A3%E7%92%B0%E9%9B%B7%E9%80%99%E4%BB%B6%E4%BA%8B/",
+            "title": "關於我專案踩到連環雷這件事",
+            "summary": "laravel-mix app.js SPA chunk files load fail (due to incorrect path)",
+            "image": "https://uwaylu.github.io/blog/../assets/images/2021-09-16-chunk-load-err.png",
+            "date_modified": "2021-09-16T00:00:00.000Z"
+        },
+        {
             "id": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
             "url": "https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/",
             "title": "天氣之子觀後感",
@@ -142,13 +150,6 @@
             "title": "Laravel-AdminLTE 中如何使用 Vue 開發",
             "summary": "page source 反查出 app.js\n於 Vue 虛擬 DOM 中新增測試訊息並顯示\n\n// public/js/app.js\nvar app = new Vue({\n  el: '#app',\n  data: {\n    message: 'Hello, World! 20170506 added; webpack test.'\n  }\n}) ...",
             "date_modified": "2017-05-06T00:00:00.000Z"
-        },
-        {
-            "id": "https://uwaylu.github.io/blog/2017/05/19/learning-laravel-adminlte-and-bootstrapvue/",
-            "url": "https://uwaylu.github.io/blog/2017/05/19/learning-laravel-adminlte-and-bootstrapvue/",
-            "title": "在 Laravel-AdminLTE 中使用 bootstrapVue",
-            "summary": "先前整理過一篇筆記，Laravel-AdminLTE 中如何使用 Vue 開發 也是搞個半死。\n這次研究時上手了一點，其實概念和 BootstrapVue: Quick Start 文檔說明相同，以下為關鍵部分\n\n// Register BootstrapVue in your app entrypoint:\nimport Vue from 'vue'\nimpo ...",
-            "date_modified": "2017-05-19T00:00:00.000Z"
         }
     ]
 }

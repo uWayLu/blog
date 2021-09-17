@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://uwaylu.github.io/blog</id>
     <title>Webb Site</title>
-    <updated>2021-04-22T17:52:13.258Z</updated>
+    <updated>2021-09-17T17:29:08.805Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://uwaylu.github.io/blog"/>
     <link rel="self" href="https://uwaylu.github.io/blog/feed.atom"/>
@@ -105,6 +105,14 @@
         <summary type="html"><![CDATA[這篇文章是 Laravel Realworld Example App 初見筆記。]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[關於我專案踩到連環雷這件事]]></title>
+        <id>https://uwaylu.github.io/blog/2021/09/16/%E9%97%9C%E6%96%BC%E6%88%91%E5%B0%88%E6%A1%88%E8%B8%A9%E5%88%B0%E9%80%A3%E7%92%B0%E9%9B%B7%E9%80%99%E4%BB%B6%E4%BA%8B/</id>
+        <link href="https://uwaylu.github.io/blog/2021/09/16/%E9%97%9C%E6%96%BC%E6%88%91%E5%B0%88%E6%A1%88%E8%B8%A9%E5%88%B0%E9%80%A3%E7%92%B0%E9%9B%B7%E9%80%99%E4%BB%B6%E4%BA%8B/">
+        </link>
+        <updated>2021-09-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[laravel-mix app.js SPA chunk files load fail (due to incorrect path)]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[天氣之子觀後感]]></title>
         <id>https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/</id>
         <link href="https://uwaylu.github.io/blog/2019/10/07/%E5%A4%A9%E6%B0%A3%E4%B9%8B%E5%AD%90%E8%A7%80%E5%BE%8C%E6%84%9F/">
@@ -200,18 +208,5 @@ var app = new Vue({
     message: 'Hello, World! 20170506 added; webpack test.'
   }
 }) ...]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在 Laravel-AdminLTE 中使用 bootstrapVue]]></title>
-        <id>https://uwaylu.github.io/blog/2017/05/19/learning-laravel-adminlte-and-bootstrapvue/</id>
-        <link href="https://uwaylu.github.io/blog/2017/05/19/learning-laravel-adminlte-and-bootstrapvue/">
-        </link>
-        <updated>2017-05-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[先前整理過一篇筆記，Laravel-AdminLTE 中如何使用 Vue 開發 也是搞個半死。
-這次研究時上手了一點，其實概念和 BootstrapVue: Quick Start 文檔說明相同，以下為關鍵部分
-
-// Register BootstrapVue in your app entrypoint:
-import Vue from 'vue'
-impo ...]]></summary>
     </entry>
 </feed>
