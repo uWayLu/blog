@@ -17,6 +17,7 @@ summary: First Article with vupress. Write todo, configurations and logs.
 - [x] Init [vuepress/plugin-blog](https://vuepress-plugin-blog.ulivz.com/)
 - [x] Init [vurpress/theme-blog](https://vuepress-theme-blog.ulivz.com/)
 - [ ] Google Analysis
+  (WIP) 20210918
 - [ ] 3rd-party Comment
 - [x] Tags Cloud
 - [ ] Blogger Info

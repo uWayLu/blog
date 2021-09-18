@@ -35,20 +35,27 @@ module.exports = {
       // },
       {
         text: "Webb Page",
-        link: "https://uwaylu.github.io"
+        link: "https://uwaylu.github.io",
       },
       {
-        text: 'Blog',
-        link: '/',
+        text: "Blog",
+        link: "/",
       },
       {
-        text: 'Tags',
-        link: '/tag/',
+        text: "Tags",
+        link: "/tag/",
       },
     ],
     sidebar: "auto",
   },
   plugins: [
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-93999900-2",
+      },
+    ],
+    "vuepress-plugin-mermaidjs",
     [
       "@vuepress/blog",
       {
@@ -79,7 +86,6 @@ module.exports = {
         ],
       },
     ],
-    "vuepress-plugin-mermaidjs",
   ],
   markdown: {
     config: (md) => {
